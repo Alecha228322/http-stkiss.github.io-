@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>StudioKiss - Профессиональная фотостудия</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="natac"><a href="index.html#yslugi">Услуги</a></li>
+                    <li class="natac"><a href="index.html#portfolio">Портфолио</a></li>
+                    <li class="natac"><a href="stydii.html">Cтудии</a></li>
+                </ul>
+            </nav>
+            <a href="index.html"><h1 class="header_logo">StudioKiss</h1></a>
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="natac"><a href="contacts.html">Контакты</a></li>
+                    <li class="natac"><a href="onas.html">О нас</a></li>
+                    <li class="natac"><a href="index.html#otzv">Отзывы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="welcome">
+            <h1 class="welcome_title">запечатлейте свою историю</h1>
+            <p class="welcome_desc">Почувствуйте магию StudioKiss, где ваша подлинная сущность сияет на каждой фотографии. 
+            </p>
+            <p class="welcome_desc">Наш уникальный стиль и страсть к запечатлению подлинных эмоций создадут неизгладимые воспоминания.</p>
+            <a class="btn" href="contacts.html#zakaz">Заказать мероприятие</a>
+        </section>
+
+        <section class="section about">
+            <img src="assets/img/image.png" alt="Camera">
+            <div class="text">
+              <h3>О нас</h3>
+              <p>Наша студия специализируется на постановочной и естественной фотографии. Мы создаем фотоснимки, которые будут радовать долгие годы.</p>
+              <a href="onas.html"><button>Подробнее...</button></a>
+            </div>
+          </section>
+        <div class="fon">
+        <section class="section services" id="yslugi">
+            <h2>Услуги</h2>
+            <p>Найдите идеальный пакет по цене и продолжительности. Мы предлагаем гибкие варианты для <br> вашего комфорта.</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/img/карточка_1.jpg" alt="">
+                    <h4>Фотосессия в студии</h4>
+                    <p>2500₽</p>
+                    <a href="stydii.html"><button>Подробнее...</button></a>
+                </div>
+                <div class="card">
+                    <img src="assets/img/карточка_2.jpg" alt="">
+                    <h4>Выездная фотосессия</h4>
+                    <p>3500₽</p>
+                    <a href="contacts.html#zakaz"><button>Подробнее...</button></a>
+                </div>
+                <div class="card">
+                    <img src="assets/img/карточка_3.jpg" alt="">
+                    <h4>Обработка фотографий</h4>
+                    <p>1000₽</p>
+                    <a href="contacts.html#zakaz"><button>Подробнее...</button></a>
+                </div>
+            </div>
+        </section>
+        </div>
+        <section class="section portfolio" id="portfolio">
+            <h1>Портфолио</h1>
+            <p>Оцените наше творчество через подборку работ, отображающую разнообразие фотографических стилей и <br> подлинные эмоции.</p>
+            <div class="banner">
+                <div class="slides">
+                    <img src="assets/img/galer1.jpg" alt="Image 1" class="slide active">
+                    <img src="assets/img/galer2.jpg" alt="Image 2" class="slide">
+                    <img src="assets/img/galer3.jpg" alt="Image 3" class="slide">
+                </div>
+                <div class="navigation">
+                    <div class="arrow left" onclick="changeSlide(-1)">&#10094;</div>
+                    <div class="arrow right" onclick="changeSlide(1)">&#10095;</div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </section>
+        <div class="fon">
+        <section class="section services">
+            <h2>Найдите студию мечты</h2>
+            <p>Специально оборудованное пространство с профессиональным освещением, идеально <br> подходящее для фотосессий.</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/img/Mask group.png" alt="">
+                    <h3>Studio Nord</h3>
+                    <p>Скандинавские интерьеры под ключ, стильно решение для вас</p>
+                    <h3>от 2 000 ₽</h3>
+                    <a href="stydii.html"><button>Подробнее...</button></a>
+                </div>
+                <div class="card">
+                    <img src="assets/img/Mask group (1).png" alt="">
+                    <h3>ArtMinimal</h3>
+                    <p>Минимализм, вдохновляющий на творчество</p>
+                    <h3>от 3 000 ₽</h3>
+                    <a href="stydii.html"><button>Подробнее...</button></a>
+                </div>
+                <div class="card">
+                    <img src="assets/img/Mask group (2).png" alt="">
+                    <h3>LoftLab</h3>
+                    <p>Брутальный лофт с авторским подходом</p>
+                    <h3>от 5 000 ₽</h3>
+                    <a href="stydii.html"><button>Подробнее...</button></a>
+                </div>
+        </section>
+        </div>
+
+        <section class="section otzvi" id="otzv">
+            <h1>Отзывы клиентов</h1>
+            <div class="reviews">
+              <div class="review">
+                <p>"Мне очень понравилась атмосфера в этой фотостудии и профессиональный подход всей команды. С самого начала я чувствовала себя комфортно и уверенно, что очень важно для хорошей фотосессии. Фотограф был внимателен к моим пожеланиям, помогал выбрать лучшие ракурсы и создавал приятную атмосферу. В результате получились шикарные фотографии, которые я с удовольствием покажу друзьям. Команда очень дружелюбная и профессиональная, и я обязательно приду сюда еще раз!"</p>
+                <div class="author">
+                  <img src="assets/img/image 18.png" alt="Алина Андреева">
+                  <div class="author-name">Алина Андреева</div>
+                </div>
+              </div>
+        
+              <div class="review">
+                <p>"Отличное место для фотосессии! Всё организовано на высшем уровне: начиная с приятной атмосферы и профессионального подхода команды, заканчивая качественным оборудованием и разнообразными декорациями. Здесь чувствовала себя очень комфортно, а результат превзошел все мои ожидания. Обязательно приду еще раз и рекомендую всем, кто хочет получить красивые и стильные фотографии в уютной обстановке!"</p>
+                <div class="author">
+                  <img src="assets/img/image 19.png" alt="Иван Сорокин">
+                  <div class="author-name">Иван Сорокин</div>
+                </div>
+              </div>
+        
+              <div class="review">
+                <p>"Я осталась очень довольна посещением этой фотостудии. С самого начала команда встретила меня очень дружелюбно и профессионально, создав уютную и комфортную атмосферу для съемки. В процессе работы фотограф был внимателен к моим пожеланиям и помог подобрать лучшие ракурсы и освещение, что очень важно для получения качественных снимков. Оборудование и декорации в студии на высшем уровне — все было продумано до мелочей. В итоге я получила отличные фотографии, которые превзошли все мои ожидания. Обязательно вернусь сюда снова и рекомендую всем, кто хочет сделать профессиональные и стильные снимки!"</p>
+                <div class="author">
+                  <img src="assets/img/image 21.png" alt="Вера Аианова">
+                  <div class="author-name">Вера Аианова</div>
+                </div>
+              </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+              <div class="footer-left">
+                <p>© 2019—2025, ООО «StudioKiss».</p>
+                <p>Аренда фотостудии, съёмки мероприятий.<br>Все виды фотосессий</p>
+              </div>
+              <div class="footer-right">
+                <p>Мы в социальных сетях:</p>
+                <div class="social-icons">
+                  <img src="assets/img/vk-icon.png" alt="VK">
+                  <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
+                  <img src="assets/img/telegram-icon.png" alt="Telegram">
+                </div>
+              </div>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>
